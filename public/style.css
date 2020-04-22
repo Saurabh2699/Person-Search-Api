@@ -1,0 +1,34 @@
+.form-container {
+    margin-top: 50px;
+    margin-left: 490px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-container label {
+    margin: 5px 10px 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-container input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: royalblue;
+}
